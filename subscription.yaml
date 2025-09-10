@@ -5,222 +5,315 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🇨🇳_CN_中国
-  type: ss
-  server: 103.149.182.191
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-  delay: 9999
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  type: vmess
-  server: v35.heduian.link
-  port: 30835
-  sni: ''
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  cipher: auto
+- name: us|ae65|puddincat07@Telegram
   network: ws
+  password: slch2024
+  port: 2096
+  server: 195.13.55.87
   skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
   ws-opts:
-    path: /oooo
     headers:
-      host: v35.heduian.link
-  alterId: 2
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  type: vmess
-  server: v29.heduian.link
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  cipher: auto
+- name: us|e293|puddincat07@Telegram
   network: ws
+  password: slch2024
+  port: 2096
+  server: 192.0.54.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
   ws-opts:
-    path: /oooo
     headers:
-      host: ocbc.com
-  alterId: 2
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-117.164.185.220-0000
-  server: 117.164.185.220
-  port: 61027
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  delay: 9999
-- name: 🇨🇳CN-117.164.185.220-0001
-  server: 117.164.185.220
-  port: 61026
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  delay: 9999
-- name: 🇨🇳CN-36.138.100.57-0009
-  server: 36.138.100.57
-  port: 61001
+- name: cr|aef7|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 190.93.247.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: false
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-36.138.100.57-0010
-  server: 36.138.100.57
-  port: 61002
+- name: us|0612|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 192.0.54.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: false
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-117.164.185.220-0011
-  server: 117.164.185.220
-  port: 61001
+- alterId: 0
+  name: us|3b57|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.68.156.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  tls: true
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: false
+  udp: true
   delay: 9999
-- name: 🇨🇳CN-117.164.185.220-0012
-  server: 117.164.185.220
-  port: 61002
+- name: us|d393|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.94.90.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: false
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-117.164.185.222-0013
-  server: 117.164.185.222
-  port: 61001
+- name: us|3327|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.68.156.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: false
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-117.164.185.222-0014
-  server: 117.164.185.222
-  port: 61002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
+- name: fr|90e5|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.16.110.195
   skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
   delay: 9999
-- name: 🇨🇳CN-36.138.100.57-0017
-  server: 36.138.100.57
-  port: 21002
+- name: kz|aadd|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.76.18.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: false
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-36.138.100.57-0018
-  server: 36.138.100.57
-  port: 21003
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
+- name: us|bd77|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.34.230.195
   skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-183.245.146.20-0019
-  server: 183.245.146.20
-  port: 21002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
+- name: kz|ca67|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.76.18.195
   skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
   delay: 9999
-- name: 🇨🇳CN-183.245.146.20-0020
-  server: 183.245.146.20
-  port: 21001
+- name: us|8143|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 198.62.62.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: false
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-117.164.185.222-0021
-  server: 117.164.185.222
-  port: 21001
+- name: us|203f|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.34.230.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: false
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-117.164.185.222-0022
-  server: 117.164.185.222
-  port: 21002
+- name: us|771c|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.34.229.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: false
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-117.164.185.222-0023
-  server: 117.164.185.222
-  port: 21003
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
+- name: us|ecc3|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 192.200.160.87
   skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
   delay: 9999
-- name: 🇨🇳CN-117.164.185.222-0024
-  server: 117.164.185.222
-  port: 21004
+- alterId: 0
+  name: us|e872|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 192.0.63.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  tls: true
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: false
+  udp: true
   delay: 9999
-- name: 🇨🇳CN-117.164.185.222-0025
-  server: 117.164.185.222
-  port: 21005
+- name: cf|7c04|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.46.30.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
+  delay: 9999
+- name: us|fd3c|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.94.90.195
   skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+  delay: 9999
+- name: cz|b8d4|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 195.85.23.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
+  delay: 9999
+- name: us|ccdf|puddincat07@Telegram
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 195.13.45.87
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram🇨🇳
   delay: 9999
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - 🇨🇳_CN_中国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳CN-117.164.185.220-0000
-  - 🇨🇳CN-117.164.185.220-0001
-  - 🇨🇳CN-36.138.100.57-0009
-  - 🇨🇳CN-36.138.100.57-0010
-  - 🇨🇳CN-117.164.185.220-0011
-  - 🇨🇳CN-117.164.185.220-0012
-  - 🇨🇳CN-117.164.185.222-0013
-  - 🇨🇳CN-117.164.185.222-0014
-  - 🇨🇳CN-36.138.100.57-0017
-  - 🇨🇳CN-36.138.100.57-0018
-  - 🇨🇳CN-183.245.146.20-0019
-  - 🇨🇳CN-183.245.146.20-0020
-  - 🇨🇳CN-117.164.185.222-0021
-  - 🇨🇳CN-117.164.185.222-0022
-  - 🇨🇳CN-117.164.185.222-0023
-  - 🇨🇳CN-117.164.185.222-0024
-  - 🇨🇳CN-117.164.185.222-0025
+  - us|ae65|puddincat07@Telegram
+  - us|e293|puddincat07@Telegram
+  - cr|aef7|puddincat07@Telegram
+  - us|0612|puddincat07@Telegram
+  - us|3b57|puddincat07@Telegram
+  - us|d393|puddincat07@Telegram
+  - us|3327|puddincat07@Telegram
+  - fr|90e5|puddincat07@Telegram
+  - kz|aadd|puddincat07@Telegram
+  - us|bd77|puddincat07@Telegram
+  - kz|ca67|puddincat07@Telegram
+  - us|8143|puddincat07@Telegram
+  - us|203f|puddincat07@Telegram
+  - us|771c|puddincat07@Telegram
+  - us|ecc3|puddincat07@Telegram
+  - us|e872|puddincat07@Telegram
+  - cf|7c04|puddincat07@Telegram
+  - us|fd3c|puddincat07@Telegram
+  - cz|b8d4|puddincat07@Telegram
+  - us|ccdf|puddincat07@Telegram
 - name: 自动选择
   type: url-test
   proxies:
-  - 🇨🇳_CN_中国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳CN-117.164.185.220-0000
-  - 🇨🇳CN-117.164.185.220-0001
-  - 🇨🇳CN-36.138.100.57-0009
-  - 🇨🇳CN-36.138.100.57-0010
-  - 🇨🇳CN-117.164.185.220-0011
-  - 🇨🇳CN-117.164.185.220-0012
-  - 🇨🇳CN-117.164.185.222-0013
-  - 🇨🇳CN-117.164.185.222-0014
-  - 🇨🇳CN-36.138.100.57-0017
-  - 🇨🇳CN-36.138.100.57-0018
-  - 🇨🇳CN-183.245.146.20-0019
-  - 🇨🇳CN-183.245.146.20-0020
-  - 🇨🇳CN-117.164.185.222-0021
-  - 🇨🇳CN-117.164.185.222-0022
-  - 🇨🇳CN-117.164.185.222-0023
-  - 🇨🇳CN-117.164.185.222-0024
-  - 🇨🇳CN-117.164.185.222-0025
+  - us|ae65|puddincat07@Telegram
+  - us|e293|puddincat07@Telegram
+  - cr|aef7|puddincat07@Telegram
+  - us|0612|puddincat07@Telegram
+  - us|3b57|puddincat07@Telegram
+  - us|d393|puddincat07@Telegram
+  - us|3327|puddincat07@Telegram
+  - fr|90e5|puddincat07@Telegram
+  - kz|aadd|puddincat07@Telegram
+  - us|bd77|puddincat07@Telegram
+  - kz|ca67|puddincat07@Telegram
+  - us|8143|puddincat07@Telegram
+  - us|203f|puddincat07@Telegram
+  - us|771c|puddincat07@Telegram
+  - us|ecc3|puddincat07@Telegram
+  - us|e872|puddincat07@Telegram
+  - cf|7c04|puddincat07@Telegram
+  - us|fd3c|puddincat07@Telegram
+  - cz|b8d4|puddincat07@Telegram
+  - us|ccdf|puddincat07@Telegram
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
