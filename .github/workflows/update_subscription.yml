@@ -2,7 +2,8 @@ name: Update Clash Subscription
 
 on:
   schedule:
-    - - cron: '0 4 * * *' # 每天 UTC+8 上午12点自动执行
+    - cron: '0 16 * * *'    # UTC+8 00:00
+    - cron: '0 4 * * *'     # UTC+8 12:00
   workflow_dispatch:
 
 jobs:
