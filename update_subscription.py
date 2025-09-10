@@ -5,8 +5,14 @@ import subprocess
 
 # 可用的公共clash订阅源（可自行增加）
 CLASH_SUB_LIST = [
-    "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash.yaml",
-    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
+    "https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml",
+    "https://raw.githubusercontent.com/wisebobo/clashNodes/refs/heads/master/rules_clash.yaml",
+    "https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/mihomo.yaml"
+    "https://raw.githubusercontent.com/JanuaryEleX/clash/refs/heads/main/1.yaml"
+    "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.yaml"
+    "https://raw.githubusercontent.com/devojony/ClashSub/refs/heads/master/clash/subs.yaml"
+    "https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml"
+    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"    
     "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml"
 ]
 
