@@ -13,7 +13,7 @@ CLASH_SUB_LIST = [
     "https://raw.githubusercontent.com/devojony/ClashSub/refs/heads/master/clash/subs.yaml"
     "https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml"
     "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"    
-    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml"
+    "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
 ]
 
 def fetch_clash_nodes():
